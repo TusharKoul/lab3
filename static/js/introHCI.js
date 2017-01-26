@@ -30,7 +30,7 @@ function projectClick(e) {
         $(containingProject).append("<div class='project-description'><p id='descripition-p-toggle'>Description of the project.</p></div>");
     } else {
         // description.html("<p>Stop clicking on me! You just did it at " + (new Date()) + "</p>");
-        $(containingProject).find("#descripition-p-toggle").hide();
+        $(containingProject).hide();
     }
 
 }
